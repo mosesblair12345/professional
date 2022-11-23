@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  color: #F67B25;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #F67B25;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #D4AA20;
+}
+
+a {
+  color: #D4AA20;
+}
+
+hr {
+  border: none;
+  border-top: 10px dotted #F6DA25;;
+  width: 20%;
+  margin: 70px auto;
+}
+i{
+  padding-right: 5px;
+}
+.top-container {
+  background-color: #FFFBE9;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 15%;
+  top: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  bottom: 45%;
+}
+.responsive{
+  width: 40%;
+}
+.profile {
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+  line-height: 2;
+}
+
+.profile-p {
+  text-align: left;
+}
+
+.skills {
+  background-color: #FFFBE9;
+  padding-bottom: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.design-image {
+  width: 35%;
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.development-image {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.security-image {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me {
+  margin-bottom: 100px;
+}
+
+.btn {
+  font-family: 'Playfair Display', serif;
+}
+
+.btn:hover {
+  background-color: #F6DA25;
+  border-color: #F6DA25;
+}
+
+.contact-me-p {
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #FFFBE9;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.footer-link:hover {
+  color: #F6DA25;
+}
+
+.footer-p {
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .top-cloud {
+    right: 0;
+  }
+
+  .bottom-cloud {
+    left: 0;
+    display: block;
+    position: static;
+  }
+
+  .responsive {
+    width: 80%;
+  }
+
+  .design-image {
+    float: none;
+    position: relative;
+    left: 60%;
+  }
+
+  .development-image {
+    float: none;
+  }
+
+  .security-image {
+    float: none;
+    position: relative;
+    left: 60%;
+  }
+}
